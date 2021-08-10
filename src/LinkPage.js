@@ -1,6 +1,6 @@
 const LinkPage = () => {
     const matchLink = () => {
-        let linknumber = Math.floor(Math.random() * 3)
+        let linknumber = Math.floor(Math.random() * 4)
         if (linknumber === 0) {
             return 'https://nav2goe.github.io'
         }
@@ -9,6 +9,9 @@ const LinkPage = () => {
         }
         if (linknumber === 2) {
             return 'https://nav2goekatha2.github.io'
+        }
+        if (linknumber === 3) {
+            return 'https://nav2goe4.nav2goe4.io'
         }
     }
 
