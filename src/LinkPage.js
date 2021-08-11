@@ -1,3 +1,5 @@
+import './Style.css'
+
 const LinkPage = () => {
     const matchLink = () => {
         let linknumber = Math.floor(Math.random() * 4)
